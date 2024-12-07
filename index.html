@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+</head>
+<style>
+    *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    h2{
+        color: black;
+    }
+    body{
+        font-family: Arial, Sans-serif;
+        background-color: #ffffff;
+        color: #ffffff00;
+    }
+    button{
+        background-color: rgb(73, 107, 4);
+        color: rgb(122, 116, 236);
+        padding: 0.6rem 3rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    button:hover{
+        color: #000000;   
+    }
+</style>
+<body>
+    <h2>Download This image with the download button below</h2>
+    <img src="Img/73011-1920x1080.jpg" alt="An example"
+    width=300px
+    height=300px
+    >
+    <a href="Img/73011-1920x1080.jpg" Download="logo">
+        <br>
+        <button onclick="download('prod_xxxx2')">Download</button>
+    </a>
+
+    <br>
+    <br>
+    <hr>
+    <hr>
+
+
+    <h2>Buy this image with the Buy Button Below</h2>
+    <img src="Img/RuzHN94.jpg" alt="buy"
+    width=300px
+    height=300px
+    >
+    <a href="buy.html">
+        <br><button onclick="Buy('prod_xxxx2')">Buy</button>
+    </a>
+</body>
+</html>
